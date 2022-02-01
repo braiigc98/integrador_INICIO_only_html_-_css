@@ -1,0 +1,1047 @@
+@font-face {
+    font-family: "anton";
+    src: url(./fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "luxur";
+    src: url(./fonts/LuxuriousRoman-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(142,142,142);
+    background: linear-gradient(90deg, rgb(33, 14, 26) 28%, rgb(0, 0, 0) 75%);
+    box-sizing: border-box;
+}
+.inicio-logo-pag{
+    background: rgb(142,142,142);
+    background: linear-gradient(90deg, rgb(33, 14, 26) 28%, rgb(0, 0, 0) 75%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+    .inicio-logo-pag img{
+        width: 100px;
+    }
+/*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+
+.container-header{
+    background: rgb(26,0,38);
+    background: linear-gradient(90deg, rgb(215, 210, 218) 29%, rgb(209, 204, 211) 69%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position:sticky;
+    top: 0%;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    .navigation ul li a{
+        color: rgb(0, 0, 0);
+        font-family: "luxur";
+        list-style: none;
+        text-align: center;
+        margin: 0px 30px; 
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+        .li-nav{
+            display: inline-block;
+        }
+            .li-nav:hover a{
+                background: rgb(255, 123, 0);
+                border-radius: 5px;
+            }
+
+.icon-login{
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+    .icon-login:hover{
+        background: rgb(255, 123, 0);
+        border-radius: 2px;
+    }
+
+.icon-menu{
+    color: black;
+    font-size: 1.5em;
+    display: none!important;
+}
+    .icon-menu:hover{
+        background: rgb(255, 123, 0);
+        cursor: pointer;
+    }
+
+        .change{
+            display: none;
+        }
+
+/*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*//*SECCIONES*/
+
+.inicio-slogan{ /*INICIO*//*INICIO*/
+    width: 100%;
+    background:url("./img/fondo.jpg");
+    background-size:cover;
+}
+    .inicio-info-slogan{
+        width: 100%;
+        height: 60%;
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+        .inicio-img{
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .inicio-titulo-slogan{
+            width: 50%;
+            color: whitesmoke;
+            font-family: 'Staat';
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.7rem; 
+            flex-wrap: wrap;
+        }
+            
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4em;
+            }
+
+.msj-bienvenida{/*MENSAJE DE BIENVENIDA*//*MENSAJE DE BIENVENIDA*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "luxur";
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modelados-info-titulo{ /*MODELADOS*//*MODELADOS*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:url("./img/fondo.jpg");
+    background-size:cover;
+    
+}
+
+    .modelados-titulo{ /*MODELADOS3D MODELADOS3D MODELADOS3D*/
+        display: inline-block;
+        color: orange;
+        font-family: "luxur";
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    .column{
+        padding: 5px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+        .column img{
+            width: 425px;
+            margin-top: 5px;
+        }
+
+
+.quienes-somos-container-titulo{ /*QUIENES SOMOS*//*QUIENES SOMOS*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:url("./img/fondo.jpg");
+    background-size:cover;
+}
+    .quienes-somos-titulo{
+        display: inline-block;
+        color: orange;
+        font-family: "luxur";
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+
+.quienes-somos-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .quienes-somos-txt1{
+        color: white;
+        font-family: "luxur";
+        font-size: 1.3em;
+        font-weight: 100;
+    }
+        .quienes-somos-txt2{
+            color: white;
+            font-family: "luxur";
+            font-size: 1.3em;
+            font-weight: 100;
+        }
+
+.quienes-somos-ventajas{
+    background: rgb(30,3,46);
+    background: linear-gradient(90deg, rgb(53, 5, 82) 31%, rgb(77, 10, 116) 74%);
+    border-radius: 55px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "luxur";
+    font-size: 1.4em;
+    font-weight: 100;
+}
+    .ventajas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px; 
+    }
+        .ventajas1{
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .ventajas1 img{
+                display: inline-block;
+                width: 200px;
+                padding: 5px;
+            }
+                .ventajas1-txt{
+                    color: white;
+                    font-family: "luxur";
+                    font-size: 1em;
+                    font-weight: 100;
+                    padding: 5px;
+                }
+                    .ventajas2{
+                        width: 33%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .ventajas2 img{
+                            display: inline-block;
+                            width: 200px;
+                            padding: 5px;
+                        }
+                            .ventajas2-txt{
+                                color: white;
+                                font-family: "luxur";
+                                font-size: 1em;
+                                font-weight: 500;
+                                padding: 5px;
+                            }
+                                .ventajas3{
+                                    width: 33%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                    .ventajas3 img{
+                                        display: flex;
+                                        width: 220px;
+                                        padding: 5px;
+                                    }
+                                        .ventajas3-txt{
+                                            color: white;
+                                            font-family: "luxur";
+                                            font-size: 1em;
+                                            font-weight: 500;
+                                            padding: 5px;
+                                        }
+
+.contactos-titulo{ /*CONTACTOS*//*CONTACTOS*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:url("./img/fondo.jpg");
+    background-size:cover;
+}
+    .contactos-titulo-txt{
+        display: inline-block;
+        color: orange;
+        font-family: "luxur";
+        margin-top: 60px;
+        margin-bottom: 55;
+    }
+.container-contactos{
+    background: rgb(30,3,46);
+    background: linear-gradient(90deg, rgb(53, 5, 82) 31%, rgb(77, 10, 116) 74%);
+    border-radius: 15px;
+    margin: 15px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .container-recuadro-contacto{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 25px 0px;
+    }
+        .container-formulario-contacto{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+            .container-contacto-input{
+                display: flex;
+                flex-direction: column;
+            }
+                .container-recuadro-contacto form{
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    display: flex;
+                }
+
+                    .container-recuadro-contacto label{
+                        color: white;
+                        font-family: "luxur";
+                        font-size: 1em;
+                        
+                    }
+                        .container-formulario-contacto button{
+                            font-family: "luxur";
+                            font-size: 1em;
+                            font-weight: 600;
+                            margin-top: 2%;
+                        }
+                            .formulario-txt{
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                font-family: "luxur";
+                                font-size: 1.2em;
+                                font-weight: 300;
+                            }
+.contactos-telelefono{
+    width: 50%;
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    font-family: "luxur";
+    font-weight: 100;
+    font-size: 1.1em;
+    padding: 2%;
+}
+
+.container-footer{ /*FOOTER*//*FOOTER*//*FOOTER*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(26,0,38);
+    background: linear-gradient(90deg, rgb(89, 83, 92) 29%, rgb(209, 204, 211) 69%);  
+}
+    .footer-redes{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .wp-img{
+            width: 50px;
+            margin-right: 10px;
+        }
+            .ig-img{
+                width: 50px;
+                margin-right: 10px;
+            }
+                .fb-img{
+                    width: 50px;
+                    margin-right: 10px;
+                }
+.footer-txt{
+    width: 50%;
+    display: flex;
+    font-family: "anton";
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.container-copyright{
+    background: rgb(26,0,38);
+    background: linear-gradient(90deg, rgb(89, 83, 92) 29%, rgb(209, 204, 211) 69%);  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    .copyright{
+        color: rgb(10, 7, 7);
+        font-family: "luxur";
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+
+/*RESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVE*/
+/*RESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVE*/
+/*RESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVERESPONSIVE*/
+
+
+@media (max-width:8000px) and (min-width:3000px){
+    .inicio-info-slogan{
+        height: 20%;
+    }
+        .inicio-img{
+            justify-content: flex-end;
+        }
+
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+    .column{
+        display: flex;
+    }
+    .column img{
+        width: 7%;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    
+    .ventajas1{
+        width: 10%;
+    }
+    .ventajas2{
+        width: 10%;
+    }
+    .ventajas3{
+        width: 10%;
+    }
+               
+    .container-recuadro-contacto form{
+        padding-left: 70%;
+    }
+
+    .formulario-txt{
+        padding-left: 70%;
+    }
+
+    .footer-redes{
+        justify-content: flex-end;
+        padding-right: 350px;
+    }
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1025px){
+    .inicio-logo-pag img{
+        width: 80px;
+    }
+
+    .container-header{
+        width: 100%;
+        position: sticky;
+        padding: 0.2rem;
+    }
+
+    .navigation{
+        display: flex;
+    }
+
+        .navigation ul li a{
+            font-size: 1.4rem;
+        }
+        
+    .icon-login{
+        font-size: 1.4rem;
+        
+    }              
+
+    .inicio-info-slogan{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    }
+        .inicio-img{
+            width: 100%;
+        }
+    
+        .inicio-titulo-slogan{
+            width: 100%;
+            display: flex;
+        }
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4rem;
+            }
+    
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .column img{
+        width: 49%;
+        margin-top: 5px;
+    }
+    
+    .ventajas{
+        display: inline-block;
+        margin: 0px 0px; 
+    }   
+        .ventajas1{
+            width: 100%;
+        }
+            .ventajas1 img{
+                width: 200px;
+                padding: 5px;
+            }
+         .ventajas2{
+            width: 50%;
+            margin: 5% 0%;
+        }
+            .ventajas2 img{
+                width: 200px;
+                padding: 5px;
+            }  
+         .ventajas3{
+            width: 50%;
+        }
+            .ventajas3 img{
+                width: 200px;
+                margin: 3% 0%;
+                padding: 5px;
+            }       
+               
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:769px){
+    .inicio-logo-pag img{
+        width: 80px;
+    }
+
+    .container-header{
+        width: 100%;
+        position: sticky;
+        padding: 0.2rem;
+    }
+
+    .navigation{
+        display: flex;
+    }
+
+        .navigation ul li a{
+            font-size: 1rem;
+        }
+        
+    .icon-login{
+        font-size: 1.2rem;
+        
+    }              
+
+    .inicio-info-slogan{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        
+    }
+        .inicio-img{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+    
+        .inicio-titulo-slogan{
+            width: 100%;
+            display: flex;
+        }
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4rem;
+            }
+    
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .column img{
+        width: 49%;
+        margin-top: 5px;
+    }
+    
+    .ventajas{
+        display: inline-block;
+        margin: 0px 0px; 
+    }   
+        .ventajas1{
+            width: 100%;
+        }
+            .ventajas1 img{
+                width: 200px;
+                padding: 5px;
+            }
+         .ventajas2{
+            width: 50%;
+            margin: 5% 0%;
+        }
+            .ventajas2 img{
+                width: 200px;
+                padding: 5px;
+            }  
+         .ventajas3{
+            width: 50%;
+        }
+            .ventajas3 img{
+                width: 200px;
+                margin: 3% 0%;
+                padding: 5px;
+            }       
+               
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:768px) and (min-width:426px){
+    .inicio-logo-pag img{
+        width: 80px;
+    }
+
+    .container-header{
+        width: 100%;
+        position: sticky;
+        padding: 0.5rem;
+    }
+
+    .navigation{
+        display: flex;
+    }
+        
+    .icon-login{
+        display: inline-block;
+        padding: 0.6rem;
+    }        
+
+    ul{
+        display: none;
+    }        
+        .icon-menu{
+            font-size: 1.5rem;
+            display: block!important;
+        }
+            .change:checked ~ ul {
+                display: inline-block!important;
+                width: 100%;
+                font-size: 0.9rem;
+            }        
+
+    .inicio-info-slogan{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+        .inicio-img{
+            width: 100%;
+        }
+    
+        .inicio-titulo-slogan{
+            width: 100%;
+            display: flex;
+        }
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4rem;
+            }
+    
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .column img{
+        width: 49%;
+        margin-top: 5px;
+    }
+    
+    .ventajas{
+        display: inline-block;
+        margin: 0px 0px; 
+    }   
+        .ventajas1{
+            width: 100%;
+        }
+            .ventajas1 img{
+                width: 200px;
+                padding: 0px;
+            }
+         .ventajas2{
+            width: 80%;
+            margin: 5% 0%;
+        }
+            .ventajas2 img{
+                width: 200px;
+                padding: 0px;
+            }  
+         .ventajas3{
+            width: 60%;
+        }
+            .ventajas3 img{
+                width: 200px;
+                margin: 3% 0%;
+                padding: 0px;
+            }       
+               
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:425px) and (min-width:376px){
+    .inicio-logo-pag img{
+        width: 80px;
+    }
+
+    .container-header{
+        width: 100%;
+        position: sticky;
+        padding: 0.5rem;
+    }
+
+    .navigation{
+        display: flex;
+    }
+        
+    .icon-login{
+        display: inline-block;
+        padding: 0.6rem;
+    }        
+
+    ul{
+        display: none;
+    }        
+        .icon-menu{
+            font-size: 1.5rem;
+            display: block!important;
+        }
+            .change:checked ~ ul {
+                display: inline-block!important;
+                width: 80%;
+                font-size: 0.9rem;
+            }        
+
+    .inicio-info-slogan{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+        .inicio-img{
+            width: 100%;
+        }
+    
+        .inicio-titulo-slogan{
+            width: 100%;
+            display: flex;
+        }
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4rem;
+            }
+    
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .column img{
+        width: 49%;
+        margin-top: 5px;
+    }
+    
+    .ventajas{
+        display: inline-block;
+        margin: 0px 0px; 
+    }   
+        .ventajas1{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas1 img{
+                padding: 0px;
+            }
+         .ventajas2{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas2 img{
+                padding: 0px;
+            }  
+         .ventajas3{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas3 img{
+                width: 200px;
+                margin: 3% 0%;
+                padding: 0px;
+            }       
+               
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:375px) and (min-width:320px){
+    .inicio-logo-pag img{
+        width: 80px;
+    }
+
+    .container-header{
+        width: 100%;
+        position: sticky;
+        padding: 0.5rem;
+    }
+
+    .navigation{
+        display: flex;
+    }
+        
+    .icon-login{
+        display: inline-block;
+        padding: 0.6rem;
+    }        
+
+    ul{
+        display: none;
+    }        
+        .icon-menu{
+            font-size: 1.5rem;
+            display: block!important;
+        }
+            .change:checked ~ ul {
+                display: inline-block!important;
+                width: 80%;
+                font-size: 0.9rem;
+            }        
+
+    .inicio-info-slogan{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+        .inicio-img{
+            width: 100%;
+        }
+    
+        .inicio-titulo-slogan{
+            width: 100%;
+            display: flex;
+        }
+            .inicio-titulo-yourgroom{
+                font-family: "luxur";
+                font-size: 1.4rem;
+            }
+    
+    .msj-bienvenida{
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .column img{
+        width: 49%;
+        margin-top: 5px;
+    }
+    
+    .ventajas{
+        display: inline-block;
+        
+        margin: 0px 0px; 
+    }   
+        .ventajas1{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas1 img{
+                padding: 0px;
+            }
+         .ventajas2{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas2 img{
+                padding: 0px;
+            }  
+         .ventajas3{
+            width: 100%;
+            flex-direction: column;
+        }
+            .ventajas3 img{
+                width: 200px;
+                margin: 3% 0%;
+                padding: 0px;
+            }       
+               
+    .container-contacto-input{
+        width: 100%;
+    }
+    
+
+    .wp-img{
+        width: 30px;
+        margin-right: 10px;
+    }
+        .ig-img{
+            width: 30px;
+            margin-right: 10px;
+        }
+            .fb-img{
+                width: 30px;
+                margin-right: 10px;
+            }    
+    
+    .footer-txt{
+        font-size: 0.8rem;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}
+
